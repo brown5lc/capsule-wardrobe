@@ -32,5 +32,18 @@
   },
   "ct3aMetadata": {
     "initVersion": "6.5.0"
-  }
+  },
+  "description": "This is an app bootstrapped according to the [init.tips](https://init.tips) stack, also known as the T3-Stack.",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brown5lc/capsule-wardrobe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brown5lc/capsule-wardrobe/issues"
+  },
+  "homepage": "https://github.com/brown5lc/capsule-wardrobe#readme"
 }
