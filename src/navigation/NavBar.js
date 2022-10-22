@@ -1,5 +1,5 @@
 import React from "react";
-import Link from 'next/link'
+//import link from 'next/link'
 
 const Navbar = () => {
     return(

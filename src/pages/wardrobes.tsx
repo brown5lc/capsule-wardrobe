@@ -9,6 +9,9 @@ const Wardrobes: NextPage = () => {
         <>
         <Navbar/> 
         <b>This is the wardrobe page</b>
+            <div>
+                <button type="button">Create Wardrobe</button>
+            </div>
         </>
     )
 };

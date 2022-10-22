@@ -14,3 +14,32 @@ a {
 * {
   box-sizing: border-box;
 }
+
+html *:after ,
+html *:before
+{ background-image : none !important
+}
+
+html
+{ background-color : #333 !important
+; border-color     : #444 !important
+}
+
+body
+{ background-color : transparent !important /* sometimes body is not stretched over whole page height */
+; border-color     : #666 !important
+; color            : #ccc !important
+}
+
+body#body, window
+{ background-color: #333 !important
+}
+
+body * ,
+html *:after ,
+html *:before
+{ background-color : transparent !important
+; border-color     : #666        !important /* "inherit" is bugged ! */
+; color            : inherit     !important
+; text-shadow      : none        !important
+}
